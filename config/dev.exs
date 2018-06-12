@@ -11,6 +11,7 @@ config :chat, Chat.Endpoint,
   debug_errors: true,
   cache_static_lookup: false,
   code_reloader: true,
+  check_origin: false,
   watchers: [node: ["node_modules/brunch/bin/brunch", "watch"]]
 
 # Watch static and templates for browser reloading.
