@@ -25,8 +25,9 @@ defmodule Chat.Mixfile do
     [
 #     {:phoenix, "~> 1.3"},
      {:phoenix, github: "phoenixframework/phoenix", override: true},
-     {:phoenix_html, "~> 2.10"},
-     {:phoenix_live_reload, "~> 1.1", only: :dev},
+     {:jason, "~> 1.0"},
+     {:phoenix_html, "~> 2.10.2"},
+     {:phoenix_live_reload, "~> 1.1.5", only: :dev},
      {:postgrex, "~> 0.13"},
      {:cowboy, "~> 1.1"}]
   end
